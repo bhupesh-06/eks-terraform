@@ -18,8 +18,8 @@ terraform {
 }
 provider "aws" {
   region  = "ap-south-1"
-  #profile = "Akash" // This profile section is used to provide authentication for aws which is configured in aws cli. So we do not have to use the access_key and secret_key variables.
-  access_key = "AKIAY2LJIPMHVYESW7DU"
-  secret_key = "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"
+  profile = "Akash" // This profile section is used to provide authentication for aws which is configured in aws cli. So we do not have to use the access_key and secret_key variables.
+  #access_key = 
+  #secret_key = 
 }
 
